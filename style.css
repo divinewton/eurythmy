@@ -17,14 +17,18 @@ body {
     background-color: var(--background);
     color: var(--text);
     word-wrap: break-word;
-    margin-left: 150px;
-    margin-right: 150px;
+}
+header, main {
+    margin-left: 125px;
+    margin-right: 125px;
 }
 #top-title {
     font-size: 3rem;
     font-weight: 600;
     color: var(--accent);
     text-align: center;
+    line-height: 0.25;
+    padding-top: 25px;
 }
 #top-author {
     font-size: 1.5rem;
@@ -47,6 +51,7 @@ body {
 }
 .top-link:hover {
     cursor: pointer;
+    opacity: 75%;
 }
 .text-section {
     padding: 3%;
@@ -137,6 +142,39 @@ body {
     background: none;
     cursor: pointer;
 }
-#btn-1 {
-    padding-bottom: 25px;
+video, iframe, img {
+    border-radius: 18px;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-right: 50px;
+    opacity: 75%;
+}
+#footer-name {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 50%;
+}
+#footer-name a {
+    color: var(--text);
+}
+#footer-name a:hover {
+    text-decoration: none;
+    opacity: 75%;
+}
+#footer-link {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 50%;
+}
+#footer-link a {
+    width: 45px;
+    translate: 18px 0;
+}
+#footer-link a:hover {
+    opacity: 75%;
 }
