@@ -33,6 +33,9 @@ header, main {
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+#titlename {
+    text-decoration: none;
+}
 #top-author {
     font-size: 1.5rem;
     font-weight: 600;
