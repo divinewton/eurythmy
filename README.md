@@ -1,7 +1,7 @@
 # The Art of Eurythmy
 
 ## About this Project
-A website to showcase a writing project on The Art of Eurythmy.
+An exploration of Eurythmy as an art form, and the meanings and moments asociated with Eurythmy in my life. Written by Divi Newton at Chapman University. 
 See all files and images here.
 
 ## Resources
