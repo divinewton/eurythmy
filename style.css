@@ -25,16 +25,20 @@ header, main {
 #top-title {
     font-size: 3rem;
     font-weight: 600;
-    color: var(--accent);
     text-align: center;
-    line-height: 0.25;
+    /* line-height: 0.25; */
     padding-top: 25px;
+    background: linear-gradient(var(--accent), #ef7493);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 #top-author {
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--secondary);
     text-align: center;
+    line-height: 0;
 }
 #top-links {
     display: flex;
@@ -110,19 +114,23 @@ header, main {
     gap: 25px;
 }
 #image-1 img, #image-2 img {
-    width: 350px;
+    width: 40%;
 }
 .img-caption {
     opacity: 50%;
 }
 #image-3 img {
-    width: 750px;
+    width: 83%;
 }
 .button {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 25px;
+}
+.button p {
+    color: var(--primary);
+    margin: 0;
 }
 .btn {
     color: var(--text);
@@ -145,6 +153,16 @@ header, main {
 video, iframe, img {
     border-radius: 18px;
 }
+video {
+    width: 100%;
+    height: 100%;
+}
+.video-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 83%;
+}
 footer {
     display: flex;
     flex-direction: row;
@@ -159,10 +177,10 @@ footer {
     width: 50%;
 }
 #footer-name a {
-    color: var(--text);
+    color: var(--primary);
+    text-decoration: none;
 }
 #footer-name a:hover {
-    text-decoration: none;
     opacity: 75%;
 }
 #footer-link {
@@ -177,4 +195,30 @@ footer {
 }
 #footer-link a:hover {
     opacity: 75%;
+}
+#blob-1 {
+    height: 30vmax;
+    aspect-ratio: 1;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    filter: blur(100px);
+    z-index: -99;
+    opacity: 25%;
+    transform: translate(-170%, -70%);
+    background: linear-gradient(var(--secondary), var(--accent));
+}
+#blob-2 {
+    height: 30vmax;
+    aspect-ratio: 1;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    filter: blur(100px);
+    z-index: -99;
+    opacity: 25%;
+    transform: translate(70%, 10%);
+    background: linear-gradient(var(--secondary), var(--accent));
 }
