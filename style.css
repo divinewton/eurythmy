@@ -22,6 +22,24 @@ header, main {
     margin-left: 125px;
     margin-right: 125px;
 }
+@media (max-width: 1024px) {
+    header, main {
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+}
+@media (max-width: 768px) {
+    header, main {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+@media (max-width: 480px) {
+    header, main {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
 #top-title {
     font-size: 3rem;
     font-weight: 600;
@@ -55,6 +73,12 @@ header, main {
     padding-left: 15px;
     font-size: 1.25rem;
     font-weight: 500;
+    text-align: center;
+}
+@media (max-width: 400px) {
+    .top-link {
+        font-size: 1.125rem;
+    }
 }
 .top-link:hover {
     cursor: pointer;
@@ -121,9 +145,32 @@ header, main {
 }
 .img-caption {
     opacity: 50%;
+    text-align: center;
 }
 #image-3 img {
     width: 83%;
+}
+@media (max-width: 700px) {
+    #image-1, #image-2, #image-3 {
+        gap: 15px;
+    }
+    #image-1 img, #image-2 img {
+        width: 45%;
+    }
+    #image-3 img {
+        width: 90%;
+    }
+}
+@media (max-width: 500px) {
+    #image-1, #image-2, #image-3 {
+        gap: 10px;
+    }
+    #image-1 img, #image-2 img {
+        width: 50%;
+    }
+    #image-3 img {
+        width: 100%;
+    }
 }
 .button {
     display: flex;
@@ -166,6 +213,49 @@ video {
     align-items: center;
     width: 83%;
 }
+@media (min-width: 1001px) {
+    #youtube-box-big {
+        display: block;
+    }
+    #youtube-box-med {
+        display: none;
+    }
+    #youtube-box-small {
+        display: none;
+    }
+}
+@media (max-width: 1000px) {
+    #youtube-box-big {
+        display: none;
+    }
+    #youtube-box-med {
+        display: block;
+    }
+    #youtube-box-small {
+        display: none;
+    }
+}
+@media (max-width: 700px) {
+    .video-box {
+        width: 90%;
+    }
+}
+@media (max-width: 600px) {
+    #youtube-box-big {
+        display: none;
+    }
+    #youtube-box-med {
+        display: none;
+    }
+    #youtube-box-small {
+        display: block;
+    }
+}
+@media (max-width: 500px) {
+    .video-box {
+        width: 100%;
+    }
+}
 footer {
     display: flex;
     flex-direction: row;
@@ -198,6 +288,11 @@ footer {
 }
 #footer-link a:hover {
     opacity: 75%;
+}
+@media (max-width: 500px) {
+    #chapman {
+        display: none;
+    }
 }
 #blob-1 {
     height: 30vmax;
