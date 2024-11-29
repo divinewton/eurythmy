@@ -22,14 +22,13 @@
         <a id="titlename" href="https://eurythmy.divinewton.com">
             <h1 id="top-title">The Art of Eurythmy</h1>
         </a>
-        <!-- <h1 id="top-title" href="https://eurythmy.divinewton.com">The Art of Eurythmy</h1> -->
         <h3 id="top-author">By Divi Newton</h3>
         <div id="top-links">
             <a id="moment-link" class="top-link" onclick="openMoment()">THE MOMENT</a>
             <a id="meaning-link" class="top-link" onclick="openMeaning()">THE MEANING</a>
-            <div id="blob-1"></div>
-            <div id="blob-2"></div>
         </div>
+        <div id="blob-1"></div>
+        <div id="blob-2"></div>
     </header>
     <main>
         <div id="moment-section" class="text-section">
@@ -39,18 +38,30 @@
             </div>
             <p class="paragraph">The pace of the music changes, and the stage becomes rushed with movement. Dark silken gowns flow forward, while light peachy ones move aside for a change. The movements flow in exact time with the music, creating patterns and motions that extend across the stage. Not only is each note accounted for, but each harmony and motion is visible on stage. I let the movement flow in time with the music, yet with a mind of its own. I allow myself to sink into the rhythm, into the habit created through months and months of practice. I take a moment to bask in the exhilaration of performance. I want to move to this piece over and over again. It is more than a dance; it is a harmony of sound and motion. A melody of light and movement. A unique and beautiful experience.</p>
             <div class="video-box">
-                <video width="750" controls>
+                <video controls>
                     <source src="images/video2.mp4" type="video/mp4">
                 </video>
             </div>
             <p class="paragraph">On stage, it is silent and yet so loud. There is movement and noise, with space for breath in between. Something stirs inside me, allowing me to access the emotions within. This moment feels like it could go on forever and yet is fleeting. It is brief and beautiful. Swirling colors on a dark backdrop. Something unique and yet known.</p>
             <p class="paragraph">When the piece ends, the stage goes dark. There is silence in the theater, not a breath can be heard. Then, a deep voice. A voice of inflection and emotion. A poem is begun, and there is movement on stage again. This time, it is a reflection of the voice's sound and inflection. White tunics with golden shapes appear. They move in circles and with motions that seem to convey just as much emotion as the speech.</p>
-            <div class="video-box">
-                <iframe width="750" height="450" src="https://www.youtube-nocookie.com/embed/d3Eqvove8UM?si=Mrrxzl1_5kuV95Dw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-box" id="youtube-box-big">
+                <iframe width=100% height=500
+                    src="https://www.youtube.com/embed/d3Eqvove8UM" frameborder="0">
+                </iframe>
+            </div>
+            <div class="video-box" id="youtube-box-med">
+                <iframe width=100% height=350
+                    src="https://www.youtube.com/embed/d3Eqvove8UM" frameborder="0">
+                </iframe>
+            </div>
+            <div class="video-box" id="youtube-box-small">
+                <iframe width=100% height=200
+                    src="https://www.youtube.com/embed/d3Eqvove8UM" frameborder="0">
+                </iframe>
             </div>
             <p class="paragraph">My arms move almost on their own, forming patterns and sounds for each syllable of the poem. I move slowly in parallel to a partner as we flow around each other to the pace of the speech. Though it is not music, we are moving to the rhythm and motion of natural human sound. It is a physical representation of noise in all its glory and serenity. As the motions ebb and flow, I try to soak it all in. For once in my life, I am fully present in this moment, something that we don't get to do very often. It is something that I have somewhat forgotten in the world of technology, social media, and education, where we are always focused on the future or the past. Presence is a beautiful thing and a special and perfect activity. In this moment on stage, I am truly there.</p>
             <div class="video-box">
-                <video width="750" controls>
+                <video controls>
                     <source src="images/video4.mp4" type="video/mp4">
                 </video>
             </div>
@@ -108,7 +119,7 @@
     </main>
     <footer>
         <div id="footer-name">
-            <p>Website by <a href="https://www.divinewton.com/" target="_blank">Divi Newton</a>, Chapman University</p>
+            <p>Website by <a href="https://www.divinewton.com/" target="_blank">Divi Newton</a><span id="chapman">, Chapman University</span></p>
         </div>
         <div id="footer-link">
             <a href="https://github.com/divinewton/eurythmy" target="_blank" class="link-itm">
