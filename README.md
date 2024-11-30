@@ -6,7 +6,7 @@ See all files and images here.
 
 ### Project created for Writing For Life, an Honors course at Chapman University.
 
-## Resources Used
+## Tools Used
 - Color palette: [Realtime Colors](https://www.realtimecolors.com/?colors=f4e2e6-1e0a0f-e08da2-8e203c-de4b70&fonts=Inter-Inter)
 - Fonts and icons: [Google Fonts](https://fonts.google.com/share?selection.family=Work+Sans:ital,wght@0,100..900;1,100..900)
 - Domain: [Spaceship Domains](https://www.spaceship.com/launchpad/)
